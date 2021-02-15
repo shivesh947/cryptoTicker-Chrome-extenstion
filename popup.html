@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bitbns Ticker</title>
+      <link rel="stylesheet" href="popup.css">
+   </head>
+   <body>
+      <div class="nav">
+         <p>Crypto Ticker</p>
+         <div class="nav_side">
+            <p>All coins</p>
+            <input type="checkbox" id="typeChange"/>
+         </div>
+      </div>
+      <div id="fullList">
+         <div id="header">
+            <p id="header_content">Top Coins</p>
+         </div>
+         <div class="only_full">
+            <input type="search" placeholder="Search" id="searchCoin"/>
+         </div>
+         <div id="fullCoinList">
+            <div class="loaderBox">
+               <div class="loader-06 ">
+               </div>
+            </div>
+         </div>
+         <div class="card only_full">
+            <p>
+               No data Found
+            </p>
+         </div>
+      </div>
+      <script src="./popup.js"></script>
+   </body>
+</html>
